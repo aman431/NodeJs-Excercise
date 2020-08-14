@@ -1,0 +1,13 @@
+<html>
+<body>
+<h1>Welcome to the Profile of <%= person %></h1>
+<p><strong>The Information of </strong><%= person %></p>
+<p><strong>Age: </strong><%= data.age %></p>
+<p><strong>Job: </strong><%= data.job %></p>
+<ul>
+<% for(let i=0;i<data.hobbies.length;i++){ %>
+<li><%= data.hobbies[i] %></li>
+<% }%>
+</ul>
+</body>
+</html>
