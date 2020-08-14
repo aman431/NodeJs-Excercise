@@ -11,9 +11,9 @@ app.get('/contact',(req,res) =>{
 });
 app.get('/profile/:name',(req,res) =>{
 	var data = {age: 29, job: 'Developer', hobbies:['football','Dance','Sing']};
-	res.render('profile',{person: req.params.name, data:data});
+	res.render('profile',{person: req.params.name, data: data});
 });
-app.listen(3009);
+app.listen(3000);
 
 
 /*var http = require('http'); 
