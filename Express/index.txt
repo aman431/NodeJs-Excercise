@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>HTML DISPLAY PAGE</title>
+		<style>
+			body{
+				background: skyblue;
+				color: #fff;
+				padding: 30px;
+			}
+			h1{
+				font-size: 45px;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				text-align: center;
+			}
+			p{
+				text-align: center;
+				font-size: 16px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h1>Welcome This is my first html page which is deploying by using a Node Js</h1>
+		<p>Deploying by Node js</p>
+	</body>
+</html>
